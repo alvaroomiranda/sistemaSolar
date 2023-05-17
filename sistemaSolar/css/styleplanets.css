@@ -48,15 +48,13 @@ nav button{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 1.5rem;
     width: 100%;
     align-items: center;
 }
 
 section div{
     display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
+    flex-direction: column;   
 }
 
 footer h2{
@@ -103,6 +101,12 @@ footer p{
         flex-direction: column;
         gap: 0.5rem;
     }
+}
+
+.gallery p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem;
+    font-size: 20px;
 }
 
 .gallery h1{
